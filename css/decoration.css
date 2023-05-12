@@ -1,0 +1,26 @@
+.itembox {
+    padding: 1em;
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 1em;
+}
+
+@media (prefers-color-scheme: light) {
+    .itembox {
+        border-color: #2A2A2A;
+    }
+
+    strong {
+        color: #A42A2A;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .itembox {
+        border-color: #F0F0F0;
+    }
+
+    strong {
+        color: #F08080;
+    }
+}
