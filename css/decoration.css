@@ -1,3 +1,9 @@
+/*
+id>class>tag
+辞書式順序
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+*/
+
 .itembox {
     padding: 1em;
     border-style: solid;
@@ -6,21 +12,29 @@
 }
 
 @media (prefers-color-scheme: light) {
+    .form {
+        color: #2A2ACA
+    }
+
     .itembox {
         border-color: #2A2A2A;
     }
 
-    strong {
+    .term {
         color: #A42A2A;
     }
 }
 
 @media (prefers-color-scheme: dark) {
+    .form {
+        color: #4DE4FF
+    }
+
     .itembox {
         border-color: #F0F0F0;
     }
 
-    strong {
+    .term {
         color: #F08080;
     }
 }
